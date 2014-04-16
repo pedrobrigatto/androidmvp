@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Rótulos gerais usados na criação do aplicativo -->
+    <string name="app_name">Balada</string>
+    <string name="hello_world">Olá mundo!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+
+    <!-- Rótulos referentes à atividade principal -->
+    <string name="main_lbl_1" >Olá mundo!</string>
+    <string name="main_btn_principal">Vai Lacraia</string>
+    <string name="main_lbl_titulo">Login - Baladas App</string>
+
+    <!-- Rótulos referentes ao formulário de login -->
+    <string name="lbl_login_usuario">Usuário</string>
+    <string name= "lbl_login_senha">Senha</string>
+    <string name="btn_login_entrar">Entrar</string>
+    <string name="btn_login_limpar">Limpar</string>
+    <string name="msg_login_campos_vazios">Há campos não preenchidos, querido.</string>
+    <string name="msg_login_mal_sucedido">O usuário não foi encontrado no sistema.</string>
+
+    <!-- Rótulos referentes a detalhes de uma balada -->
+    <string name="balada_detalhe_titulo">Detahes da Balada</string>
+    <string name="balada_detalhe_nome">Nome</string>
+    <string name="balada_detalhe_data">Data</string>
+    <string name="balada_detalhe_inicio">Início:</string>
+    <string name="balada_detalhe_openbar">Open bar?</string>
+    <string name="balada_detalhe_acao_atualizar_dados">ATUALIZAR</string>
+    <string name="balada_detalhe_acao_vermapa">COMO CHEGAR</string>
+    <string name="balada_detalhe_participar">EU VOU!</string>
+
+    <!-- Rótulos referentes à tela principal (home) -->
+    <string name="home_hint_pesquisa">Pesquise pelo nome da balada</string>
+
+</resources>

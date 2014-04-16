@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.uniararas.posgrad.androidmvp.view.impl.DetalhesBalada">
+
+    <TextView
+        android:id="@+id/balada_detalhes_titulo"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/geral_altura_campo"
+        android:text="@string/balada_detalhe_titulo"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/geral_lbl_titulo_tela"
+        android:textColor="@color/preto" />
+
+    <TextView
+        android:id="@+id/balada_detalhes_lbl_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/geral_altura_campo"
+        android:text="@string/balada_detalhe_titulo"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/geral_form_label_campo"
+        android:textColor="@color/preto"
+        android:layout_below="@+id/balada_detalhes_titulo" />
+
+    <EditText
+        android:id="@+id/balada_detalhes_txt_nome"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/geral_altura_campo"
+        android:textSize="@dimen/geral_form_label_campo"
+        android:layout_toRightOf="@+id/balada_detalhes_lbl_nome"
+        android:layout_below="@+id/balada_detalhes_titulo"
+        android:editable="false"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/balada_detalhes_lbl_data"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/geral_altura_campo"
+        android:text="@string/balada_detalhe_data"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/geral_form_label_campo"
+        android:textColor="@color/preto"
+        android:layout_below="@+id/balada_detalhes_lbl_nome" />
+
+    <EditText
+        android:id="@+id/balada_detalhes_txt_data"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/geral_altura_campo"
+        android:textSize="@dimen/geral_form_label_campo"
+        android:layout_toRightOf="@+id/balada_detalhes_lbl_nome"
+        android:layout_below="@+id/balada_detalhes_txt_nome"
+        android:layout_marginLeft="10dp"
+        android:editable="false" />
+
+    <TextView
+        android:id="@+id/balada_detalhes_lbl_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/geral_altura_campo"
+        android:text="@string/balada_detalhe_inicio"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/geral_form_label_campo"
+        android:textColor="@color/preto"
+        android:layout_below="@+id/balada_detalhes_lbl_data" />
+
+    <EditText
+        android:id="@+id/balada_detalhes_txt_inicio"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/geral_altura_campo"
+        android:textSize="@dimen/geral_form_label_campo"
+        android:layout_toRightOf="@+id/balada_detalhes_lbl_inicio"
+        android:layout_below="@+id/balada_detalhes_txt_data"
+        android:layout_marginLeft="10dp"
+        android:editable="false" />
+
+    <TextView
+        android:id="@+id/balada_detalhes_lbl_openbar"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/geral_altura_campo"
+        android:text="@string/balada_detalhe_openbar"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/geral_form_label_campo"
+        android:textColor="@color/preto"
+        android:layout_below="@+id/balada_detalhes_lbl_inicio" />
+
+    <ToggleButton
+        android:id="@+id/balada_detalhes_btn_openbar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/geral_altura_campo"
+        android:layout_toRightOf="@+id/balada_detalhes_lbl_openbar"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/balada_detalhes_lbl_inicio"
+        android:editable="false" />
+
+    <Button
+        android:id="@+id/balada_detalhes_btn_atualiza"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/geral_altura_campo"
+        android:layout_below="@+id/balada_detalhes_btn_openbar"
+        android:background="@color/azul_royal"
+        android:text="@string/balada_detalhe_acao_vermapa"
+        android:textStyle="bold"
+        android:textColor="@color/branco"
+        android:textSize="@dimen/geral_texto_acao"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/balada_detalhes_participar"
+        android:layout_width="fill_parent"
+        android:background="@color/azul_royal"
+        android:layout_height="@dimen/geral_altura_campo"
+        android:layout_below="@+id/balada_detalhes_btn_atualiza"
+        android:text="@string/balada_detalhe_participar"
+        android:textStyle="bold"
+        android:textColor="@color/branco"
+        android:textSize="@dimen/geral_texto_acao"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
+

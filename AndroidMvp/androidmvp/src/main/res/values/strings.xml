@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidMvp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_detalhes_balada">DetalhesBalada</string>
+    <string name="title_activity_novo_usuario">NovoUsuario</string>
+
+    <!-- Labels related to the main activity -->
+    <string name="main_lbl_1">Hello world!</string>
+    <string name="main_btn_principal">Go Lacraia</string>
+    <string name="main_lbl_titulo">Login - Baladas App</string>
+
+    <!-- Labels related to the login form -->
+    <string name="lbl_login_usuario">Username</string>
+    <string name="lbl_login_senha">Password</string>
+    <string name="btn_login_entrar">Login</string>
+    <string name="btn_login_limpar">Clean</string>
+    <string name="msg_login_campos_vazios">Some fields are missing. Idiot!</string>
+    <string name="msg_login_mal_sucedido">User not found in the system.</string>
+
+    <!-- Labels related to the event detail view -->
+    <string name="balada_detalhe_titulo">Details of the party</string>
+    <string name="balada_detalhe_nome">Name</string>
+    <string name="balada_detalhe_data">Date</string>
+    <string name="balada_detalhe_inicio">Starting</string>
+    <string name="balada_detalhe_openbar">Open bar?</string>
+    <string name="balada_detalhe_acao_vermapa">HOW TO GO</string>
+    <string name="balada_detalhe_acao_atualizar_dados">UPDATE</string>
+    <string name="balada_detalhe_participar">GOING!</string>
+
+    <!-- Labels related to the home activity -->
+    <string name="home_hint_pesquisa">Search by the name of the party</string>
+
+</resources>

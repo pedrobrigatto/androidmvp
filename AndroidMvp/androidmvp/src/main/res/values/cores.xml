@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Paleta de cores usada pela aplicação -->
+    <color name="azul">#0000ff</color>
+    <color name="vermelha">#ff0000</color>
+    <color name="verde">#00ff00</color>
+    <color name="preto">#000000</color>
+    <color name="branco">#ffffff</color>
+    <color name="azul_royal">#27408B</color>
+
+</resources>

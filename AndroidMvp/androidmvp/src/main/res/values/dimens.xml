@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Dimensões específicas do aplicativo, criadas em sala de aula -->
+    <dimen name="geral_lbl_titulo_tela">26sp</dimen>
+    <dimen name="geral_form_label_campo">20sp</dimen>
+    <dimen name="geral_texto_acao">20sp</dimen>
+    <dimen name="geral_altura_campo">60dp</dimen>
+
+    </resources>
